@@ -30,15 +30,6 @@ for(var i = 0; i < keys.length; i++) {
 			if(operators.indexOf(lastChar) > -1 || lastChar == '.')
 				equation = equation.replace(/.$/, '');
 
-			/*
-
-			for (var i = 0; i < inputVal.length; i++) {
-			    
-			    var imageOne = inputVal.replace("<img src="icons/CoolSkeleton.png" alt="Skelecool" id="imgOne" width="45em" height="45em" value="CS"></img>", "70");
-
-			}
-
-			*/
 			
 			//compute the equation on the screen
 			if(equation)
